@@ -5,6 +5,6 @@ module "s3-bucket" {
   bucket = "pennuelmakia"
   bucket_prefix = var.prefix
   policy = "random policy"
-  request_payer = "pennuel123"
+  request_payer = "pennuel1234"
 
 }

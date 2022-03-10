@@ -56,3 +56,13 @@ variable "bucket_name" {
 variable "bucket_acl" {
   default = "private"
 }
+variable "acel" {
+  type = bool
+  default = true
+}
+variable "pol" {
+  default = "somthing"
+}
+variable "request" {
+  default = "somthhing"
+}

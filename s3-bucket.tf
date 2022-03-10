@@ -4,6 +4,9 @@ module "s3-bucket" {
   bucket_prefix = var.prefix
   bucket        = var.bucket_name
   acl           = var.bucket_acl
+  acceleration_status = var.acel
+  policy = var.pol
+  request_payer = var.request
 
   versioning = {
     enabled = true
